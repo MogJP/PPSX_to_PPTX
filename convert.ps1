@@ -28,7 +28,7 @@ try {
     # プレゼンテーションを閉じる
     $Presentation.Close()
 
-    Write-Host "Successfully converted: $($PPSXFilePath) to $($PPTXFilePath)"
+    Write-Host "Successfully converted: $($PPSXFilePath) to $($PPT@XFilePath)"
 }
 catch {
     Write-Error "Failed to convert: $($PPSXFilePath) - $($_.Exception.Message)"
